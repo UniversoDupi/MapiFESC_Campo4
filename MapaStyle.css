@@ -22,7 +22,11 @@
     background-color: rgb(200,200,200);
   }
 
-  /* Aparece cuando se activa el menú */
+#instrucciones {
+    transition: opacity 1s ease;
+  }
+
+  /* Aparece cuando se activa el menú de hamburguesa */
 .overlay.active {
     display: block;
   }
