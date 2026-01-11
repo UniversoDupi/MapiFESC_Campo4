@@ -356,7 +356,7 @@ setInterval(() => {
     p.style.opacity = 1;
   }, 1000);
 
-}, 5000);
+}, 6000);
 
 function obtenerInfoZona(zona) {
   const infoZonas = { //Lista de información de los lugares
@@ -426,3 +426,4 @@ function obtenerInfoZona(zona) {
   };
   return infoZonas[zona] || "Información no disponible.";
 };
+
