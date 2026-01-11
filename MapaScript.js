@@ -338,7 +338,7 @@ function mostrarInfo() {
 const textos = [
   '<strong>INSTRUCCIONES PARA PC:</strong> Usa la RUEDA del MOUSE para hacer ZOOM en el mapa, si lo llegas a perder, utiliza el botón de abajo, y mueve el mapa con click izquierdo.',
   '<strong>INSTRUCCIONES PARA Táctiles:</strong> Usa tus 2 DEDOS (Pellizca el mapa) para hacer ZOOM, si lo llegas a perder, utiliza el botón de abajo, y mueve el mapa con solo un dedo.',
-  '<strong>TIP:</strong> Puedes tocar los puntos de colores del mapa para ver una previsuzaliación e información de cada zona.',
+  '<strong>TIP:</strong> Puedes tocar los puntos de colores del mapa para ver una previsualización e información de cada zona.',
   '<strong>TIP:</strong> El menú lateral te permite saltar directamente a cualquier área de la facultad.',
   '<strong>TIP:</strong> Haz zoom para ver con más claridad los accesos, edificios y zonas importantes.',
   '<strong>TIP:</strong> Para una mejor visualización del mapa, se recomienda usar una computadora.'
@@ -426,4 +426,5 @@ function obtenerInfoZona(zona) {
   };
   return infoZonas[zona] || "Información no disponible.";
 };
+
 
